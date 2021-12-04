@@ -10,9 +10,8 @@
 
 class User:
 
-    def __init__(self , name, email):
+    def __init__(self , name):
         self.name = name
-        self.email = email
         self.account_balance = 0
 
     def make_deposit(self, amount):
